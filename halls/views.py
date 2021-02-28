@@ -13,7 +13,7 @@ from django.forms.utils import ErrorList
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-YOUTUBE_API_KEY=''
+YOUTUBE_API_KEY='AIzaSyAiOVcZq9Tle7CwTg7bd3Nj8ouAeMzvQUw'
 
 def home(request):
     recent_halls=Hall.objects.all().order_by('-id')[:3]
